@@ -1,0 +1,75 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JMaxItems",
+				"abbreviation": "FNHB",
+				"full": "Friday Night Homebrew",
+				"authors": [
+					"/u/DMJesseMax"
+				],
+				"version": "0.1.0",
+				"url": "https://github.com/JessMax/5ee-Tools-Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		]
+		},
+	"item": [
+		{
+			"name": "The Grace of Jivir",
+			"source": "FNHB",
+			"page": 0,
+			"weapon": true,
+			"baseItem": "longsword|PHB",
+			"rarity": "artifact",
+			"tier": "major",
+			"reqAttune": "by a humanoid",
+			"reqAttuneTags": [
+				{
+					"creatureType": "humanoid"
+				}
+			],
+			"charges": "0",
+			"attachedSpells": [
+				"Alter Self",
+				"Circle of Death"
+			],
+			"wondrous": true,
+			"weight": 3,
+			"type": "M",
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"recharge": "special",
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"grantsProficiency": true,
+			"entries": [
+				"Also Known As: The Reaping Blade or The Sword of Broken Dreams",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"The sword is masterfully balanced. If you are proficient in performance, performance checks made when the performance includes the sword  are made with advantage.",
+				"Whenever you kill a humanoid with an attack using The Grace of Jivir the blade remembers the creature's appearance. While holding the sword, you can use an action to change your form to match any humanoid the blade remembers.",
+				{
+					"type": "entries",
+					"name": "Soul Reaping (recharge)",
+					"entries": [
+						"Soul Reaping: When you kill a creature with the sword, add 1 charge to the blade to a maximum of 5 charges. When you hit a creature with the sword, you can expend one of these charges to deal an additional 1d8 necrotic damage to that creature.",
+						"When you expend a charge in this way, make a DC 13 Wisdom saving throw. On a failed save, you move towards the nearest creature (ally or enemy, up to your movement speed) and make a free attack against that creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Reaping (recharge)",
+					"entries": [
+						"Spells. If the charges include a humanoid, as an action, you can expend 3 charges to cast {@spell Circle of Death|PHB}. After the spell is cast, roll a DC 13 Wisdom saving throw. On a failed save, you suffer two levels of exhaustion."
+					]
+				}
+				
+				
+			]
+		}
+	]
+}
